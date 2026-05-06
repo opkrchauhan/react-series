@@ -1,5 +1,9 @@
 function CardProfile(props) {
-  return <h1>Name : {props.name}</h1>;
+  return (
+    <>
+      <h1>Name : {props.name}</h1>;<h2>Age : {props.age}</h2>;
+    </>
+  );
 }
 
 // Without Props:
