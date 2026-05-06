@@ -5,8 +5,14 @@ function Conditional() {
   // }
   // return <h1>Please sign up.</h1>;
 
+  // const element = isLoggedIn ? (
+  //   <h1>Welcome back!</h1>
+  // ) : (
+  //   <h1>Please sign up.</h1>
+  // );
+
   const element = isLoggedIn ? (
-    <h1>Welcome back!</h1>
+    <h1>Welcome Back!</h1>
   ) : (
     <h1>Please sign up.</h1>
   );
